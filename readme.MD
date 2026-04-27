@@ -10,3 +10,7 @@ configured the AWS CLI to authenticate programmatically.
 - IAM users with AdministratorAccess are the right starting point
   for personal learning accounts
 - aws sts get-caller-identity is the fastest way to verify CLI auth
+
+
+## What tripped me up
+- Bash is case sensitive. README.m and readme.md are seen as diiferent files.
